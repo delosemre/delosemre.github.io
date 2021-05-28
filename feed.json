@@ -2,26 +2,26 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "delosemre",
     "description": "",
-    "home_page_url": "https://delosemre.github.io/gh-pages",
-    "feed_url": "https://delosemre.github.io/gh-pages/feed.json",
+    "home_page_url": "https://delosemre.github.io",
+    "feed_url": "https://delosemre.github.io/feed.json",
     "user_comment": "",
     "author": {
         "name": "delosemre"
     },
     "items": [
         {
-            "id": "https://delosemre.github.io/gh-pages/bu-bir-deneme-yazisidir.html",
-            "url": "https://delosemre.github.io/gh-pages/bu-bir-deneme-yazisidir.html",
-            "title": "bu bir deneme  yazısıdır",
-            "summary": "deneme bir iki üç do re mi fa so",
-            "content_html": "<p>deneme bir iki üç do re mi fa so</p>",
+            "id": "https://delosemre.github.io/deneme.html",
+            "url": "https://delosemre.github.io/deneme.html",
+            "title": "deneme",
+            "summary": "dededededede",
+            "content_html": "<p>dededededede</p>",
             "author": {
                 "name": "delosemre"
             },
             "tags": [
             ],
-            "date_published": "2021-05-28T15:42:55+03:00",
-            "date_modified": "2021-05-28T15:42:55+03:00"
+            "date_published": "2021-05-28T15:55:33+03:00",
+            "date_modified": "2021-05-28T15:55:33+03:00"
         }
     ]
 }
