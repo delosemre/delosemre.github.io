@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>delosemre</title>
-    <link href="https://delosemre.github.io/feed.xml" rel="self" />
-    <link href="https://delosemre.github.io" />
-    <updated>1970-01-01T02:00:00+02:00</updated>
+    <link href="https://delosemre.github.io/gh-pages/feed.xml" rel="self" />
+    <link href="https://delosemre.github.io/gh-pages" />
+    <updated>2021-05-28T15:42:55+03:00</updated>
     <author>
         <name>delosemre</name>
     </author>
-    <id>https://delosemre.github.io</id>
+    <id>https://delosemre.github.io/gh-pages</id>
 
+    <entry>
+        <title>bu bir deneme  yazısıdır</title>
+        <author>
+            <name>delosemre</name>
+        </author>
+        <link href="https://delosemre.github.io/gh-pages/bu-bir-deneme-yazisidir.html"/>
+        <id>https://delosemre.github.io/gh-pages/bu-bir-deneme-yazisidir.html</id>
+
+        <updated>2021-05-28T15:42:55+03:00</updated>
+            <summary>
+                <![CDATA[
+                    deneme bir iki üç do re mi fa so
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>deneme bir iki üç do re mi fa so</p>
+            ]]>
+        </content>
+    </entry>
 </feed>
