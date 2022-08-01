@@ -20,12 +20,13 @@ body{
 .container{
   
   display: flex;
+  z-index: 1;
 
 }
 
 .ortala{
 
-  
+  z-index: 1;
   text-align: center;
   justify-content: space-between;
   margin-top: 10px;
@@ -141,7 +142,7 @@ body{
   position: absolute;
   right: 0px;
   top: 0px;
-  z-index: -1;
+  z-index: 0;
 
   
 }
@@ -149,7 +150,9 @@ body{
 .ataturk img{
   width: 88%;
   
+  
   filter: grayscale(100%);
+  
 }
 
 .ataturk img:hover{
