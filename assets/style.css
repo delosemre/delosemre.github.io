@@ -17,12 +17,19 @@ body{
     
   }
   
+.container{
+  
+  display: flex;
 
+}
 
 .ortala{
 
   
   text-align: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 10px;
 
 }
 
@@ -93,7 +100,7 @@ body{
     color: white;
     border-radius:20px;
     background: #35323265;
-    padding: 10px;
+    padding: 10px 24px;
     border-style: solid;
     border-color: #a60a0aa8;
   }
@@ -121,7 +128,7 @@ body{
   color: white;
   border-radius:20px;
   background: #35323265;
-  padding: 10px;
+  padding: 10px 24px;
   border-style: solid;
   border-color: #a60a0aa8;
 }
@@ -135,7 +142,21 @@ body{
   right: 0px;
   top: 0px;
   z-index: -1;
-  height: 100%;
+
+  
+}
+
+.ataturk img{
+  width: 88%;
+  
   filter: grayscale(100%);
 }
 
+.ataturk img:hover{
+  filter: grayscale(0%);
+}
+
+@media (max-width:900px)
+{
+.ataturk{ display:none !important;}
+}
